@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal" >
+  
+    <ImageView
+        android:id="@+id/imageThumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/imagecollectionquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagecollectionname"
+            android:layout_toRightOf="@+id/imageThumbnail"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:text="30KB"
+            android:textAlignment="center"
+            android:textColor="@color/black_color"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/imagecollectionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageThumbnail"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:text="AppName"
+            android:textAlignment="gravity"
+            android:textColor="@color/black_color"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/picture_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/picture_button_1"
+            android:textColor="#FFD6B4"
+            android:background="#F2F2F2" />
+
+</RelativeLayout>

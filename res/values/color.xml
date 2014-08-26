@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    
+    <color name="action_bar_background_color">#F18425</color>
+    <color name="splash_screen_background_color">#F38627</color>
+    <color name="action_bar_text_color">#FFFFFF</color>
+    
+    <color name="red_color">#CF4024</color>
+    <color name="blue_color">#457DBB</color>
+    <color name="grey_color">#F1F1F1</color>
+    <color name="beige_color">#F5FFFA</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="black_color">#000000</color>
+    
+    
+    <color name="history_text_1_color">#d4c5d4</color>
+    <color name="history_background_3_color">#FFCC00</color>
+    <color name="history_text_3_color">#FF9933</color>
+    
+    
+    <color name="invite_friends_background_color_1">#0066CC</color>
+    <color name="invite_friends_background_color_2">#FF3300</color>
+    <color name="invite_friends_background_color_3">#FF9933</color>
+    <color name="invite_friends_background_color_4">#FFFFFF</color>
+   
+</resources>

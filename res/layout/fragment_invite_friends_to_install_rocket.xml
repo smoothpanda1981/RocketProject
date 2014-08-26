@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        <Button
+        	android:id="@+id/button1"
+        	android:layout_width="180dp"
+        	android:layout_height="290dp"
+        	android:background="@color/invite_friends_background_color_1"
+        	android:text="@string/invite_friends_text_1"
+        	android:textColor="@color/white_color"
+        	style="?android:attr/buttonBarButtonStyle"
+        	android:onClick="bluetoothButtonOnClick" />
+        
+        <Button
+        	android:id="@+id/button2"
+        	android:layout_width="180dp"
+        	android:layout_height="290dp"
+        	android:background="@color/invite_friends_background_color_2"
+        	android:text="@string/invite_friends_text_2"
+        	android:textColor="@color/white_color"
+        	style="?android:attr/buttonBarButtonStyle"
+        	android:onClick="zeroShareButtonOnClick" />
+        
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+            <Button
+        	android:id="@+id/button3"
+        	android:layout_width="180dp"
+        	android:layout_height="290dp"
+        	android:background="@color/invite_friends_background_color_3"
+        	android:text="@string/invite_friends_text_3"
+        	android:textColor="@color/white_color"
+        	style="?android:attr/buttonBarButtonStyle"
+        	android:onClick="messageButtonOnClick" />
+        
+        <Button
+        	android:id="@+id/button4"
+        	android:layout_width="180dp"
+        	android:layout_height="290dp"
+        	android:background="@color/invite_friends_background_color_4"
+        	android:text="@string/invite_friends_text_4"
+        	android:textColor="@color/black_color"
+        	style="?android:attr/buttonBarButtonStyle"
+        	android:onClick="qrCodeButtonOnClick" />
+        </TableRow>
+
+        
+    </TableLayout>
+    
+</RelativeLayout>

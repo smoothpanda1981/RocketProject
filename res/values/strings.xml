@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rocket</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <string name="user_name">Yan Wang</string>
+    <string name="uploaded_size">您共传输了 ０B, ０个文件</string>
+    
+    <string name="content_description">Content Description</string>
+    
+    <string name="home_button_1">创建热点</string>
+    <string name="home_button_2">搜索加入</string>
+    <string name="home_button_3">+ 邀请好友安装箭传</string>
+    
+    <string name="about_text_1">火箭快传</string>
+    <string name="about_text_2">版本         1.5.0.17</string>
+    <string name="about_text_3">Copyright © 2013 &#8211; 2014 GetGo Software Ltd.</string>
+    
+    <string name="preference_settings_title_1">常规设置</string>
+    <string name="preference_settings_text_1_1">声音</string>
+    <string name="preference_settings_summary_1_1">进行操作时播放音效</string>
+    <string name="preference_settings_text_1_2">震动</string>
+    <string name="preference_settings_summary_1_2">进行操作时震动</string>
+    <string name="preference_settings_text_1_3">新消息提醒</string>
+    <string name="preference_settings_summary_1_3">接收箭传消息推送</string>
+    <string name="preference_settings_text_1_4">清理历史</string>
+    <string name="preference_settings_summary_1_4">清理历史记录和缓存</string>
+    <string name="preference_settings_text_1_5">自动检查新版本</string>
+    
+  
+    <string name="preference_settings_title_2">高级设置</string>
+    <string name="preference_settings_text_2_1">自动安装应用</string>
+    <string name="preference_settings_summary_2_1">接收或下载自动安装 (需要 Root 权限)</string>
+    
+    <string name="history_text_1">您已经零流量传输471.3KB文件, 已发送0KB, 已接收471.3KB。继续加油!</string>
+    <string name="history_text_2">来自 : Blue Bird</string>
+    <string name="history_text_3">储存位置 : SD卡/media</string>
+    <string name="history_text_4">IMG_0822.PNG 471.3KB</string>
+    
+    <string name="invite_friends_text_1">蓝牙邀请</string>
+    <string name="invite_friends_text_2">零流量邀请</string>
+    <string name="invite_friends_text_3">短信邀请</string>
+    <string name="invite_friends_text_4">二维码</string>
+    
+    <string name="tab_text_1">应用</string>
+    <string name="tab_text_2">图片</string>
+    <string name="tab_text_3">音乐</string>
+    <string name="tab_text_4">视频</string>
+    <string name="tab_text_5">其它</string>
+    
+    <string name="application_button_1">发送给</string>
+    <string name="application_button_2">传输 (1)</string>
+    <string name="application_button_3">删除</string>
+    
+    <string name="picture_button_1">全选</string>
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>给身边的朋友装箭传</item>
+        <item>快速指南</item>
+        <item>设置</item>
+        <item>历史记录</item>
+        <item>建议反馈</item>
+        <item>关于我们</item>
+        <item>退出</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

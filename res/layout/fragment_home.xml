@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/action_bar_background_color"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_ted" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:background="@color/action_bar_background_color"
+        android:gravity="center_horizontal"
+        android:text="@string/user_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/action_bar_text_color"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="23dp"
+        android:background="@color/blue_color"
+        android:text="@string/home_button_2"
+        android:textColor="@color/action_bar_text_color" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/grey_color"
+        android:text="@string/home_button_3"
+        android:onClick="inviteFriendsToInstallRocket" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:background="@color/action_bar_background_color"
+        android:gravity="center_horizontal"
+        android:text="@string/uploaded_size"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/action_bar_text_color"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@color/red_color"
+        android:text="@string/home_button_1"
+        android:textColor="@color/action_bar_text_color" />
+
+</RelativeLayout>
